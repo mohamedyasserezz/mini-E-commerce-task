@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightgray;
+}
+li{
+    display: inline;
+    margin: 20px;
+}
+
+a:hover{
+        cursor: pointer;
+        color:darkmagenta;
+}
+
+ul li:nth-child(2){
+    margin-left: 1000px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.product{
+    width: 20%;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
+.product:hover{
+    background-color: violet;
+}
+.product img{
+    width: 200px;
+    height: 200px;
+}
+.rights{
+    background-color:rgba(183, 109, 169);
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
